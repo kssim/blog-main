@@ -53,6 +53,12 @@
   </script>
   {% endif %}
 
+	<script type="text/javascript">
+		var host = "kssim.com";
+		if ((host == window.location.host) && (window.location.protocol != "https:"))
+			window.location.protocol = "https";
+	</script>
+
   <!-- seo tags -->
   {% seo %}
 </head>

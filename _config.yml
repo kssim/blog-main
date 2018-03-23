@@ -1,5 +1,6 @@
 baseurl: ""
-url: "https://kssim.github.io"
+url: https://www.kssim.com
+enforce_ssl: www.kssim.com
 
 theme_settings:
   favicon: assets/favicon.ico
