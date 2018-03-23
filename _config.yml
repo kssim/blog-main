@@ -1,1 +1,19 @@
-theme: jekyll-theme-minimal
+baseurl: ""
+url: "https://kssim.github.io"
+
+theme_settings:
+  favicon: assets/favicon.ico
+  description: "KyeongSeob Sim"
+
+  google_analytics: # Tracking ID, e.g. "UA-000000-01"
+  katex: true 
+  google_fonts: "Source+Sans+Pro:400,700,700italic,400italic"
+
+
+markdown: kramdown
+highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: :compressed
+plugins: []
+exclude: ["Gemfile", "Gemfile.lock", "*.gem", "LICENSE", "README.md"]
